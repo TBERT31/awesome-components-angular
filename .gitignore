@@ -1,42 +1,47 @@
+#FRONTEND
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/angular-advanced-frontend/dist
+/angular-advanced-frontend/tmp
+/angular-advanced-frontend/out-tsc
+/angular-advanced-frontend/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+/angular-advanced-frontend/node_modules
+/angular-advanced-frontend/npm-debug.log
+/angular-advanced-frontend/yarn-error.log
 
 # IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+/angular-advanced-frontend/.idea/
+/angular-advanced-frontend/.project
+/angular-advanced-frontend/.classpath
+/angular-advanced-frontend/.c9/
+/angular-advanced-frontend/*.launch
+/angular-advanced-frontend/.settings/
+/angular-advanced-frontend/*.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+/angular-advanced-frontend/.vscode/*
+/angular-advanced-frontend/!.vscode/settings.json
+/angular-advanced-frontend/!.vscode/tasks.json
+/angular-advanced-frontend/!.vscode/launch.json
+/angular-advanced-frontend/!.vscode/extensions.json
+/angular-advanced-frontend/.history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+/angular-advanced-frontend/.angular/cache
+/angular-advanced-frontend.sass-cache/
+/angular-advanced-frontend/connect.lock
+/angular-advanced-frontend/coverage
+/angular-advanced-frontend/libpeerconnection.log
+/angular-advanced-frontend/testem.log
+/angular-advanced-frontend/typings
 
 # System files
-.DS_Store
-Thumbs.db
+/angular-advanced-frontend/.DS_Store
+/angular-advanced-frontend/Thumbs.db
+
+#BACKEND
+/angular-advanced-backend/node_modules
+/angular-advanced-backend/.idea
