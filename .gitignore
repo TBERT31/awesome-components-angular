@@ -43,5 +43,5 @@
 /angular-advanced-frontend/Thumbs.db
 
 #BACKEND
-/angular-advanced-backend/node_modules
-/angular-advanced-backend/.idea
+/backend/node_modules
+/backend/.idea
