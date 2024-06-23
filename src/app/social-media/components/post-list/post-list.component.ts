@@ -22,4 +22,7 @@ export class PostListComponent implements OnInit {
     );
   }
 
+  onPostCommented(postCommented: {comment: string, postId: number}) {
+    
+  }
 }
