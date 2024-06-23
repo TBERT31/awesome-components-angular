@@ -5,7 +5,7 @@ export class Post {
     userId!: number;
     title!: string;
     createdDate!: string;
-    imaggeUrl!: string;
+    imageUrl!: string;
     content!: string;
     comments!: Comment[];
 }

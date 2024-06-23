@@ -1,1 +1,6 @@
-<p>post-list works!</p>
+<h2>Posts</h2>
+
+<app-post-list-item 
+    *ngFor="let post of posts$ | async"
+    [post]="post"
+></app-post-list-item>
