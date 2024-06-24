@@ -6,7 +6,7 @@
         <mat-icon>send</mat-icon>
     </button>
 </div>
-<mat-list *ngIf="comments.length">
+<mat-list *ngIf="comments.length" @list>
     <h2 matSubheader>Commentaires</h2>
     <mat-list-item *ngFor="let comment of comments; let i = index"
     [@listItem]="animationStates[i]"
