@@ -26,7 +26,7 @@ export class HighlightDirective implements AfterViewInit {
         this.setBackgroundColor(this.color);
     }
 
-    @HostListener('click') Click() {
+    @HostListener('click') onClick() {
         this.color = "purple";
     }
 }
