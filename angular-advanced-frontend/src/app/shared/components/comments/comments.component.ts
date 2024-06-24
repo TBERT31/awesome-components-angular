@@ -1,4 +1,4 @@
-import { animate, state, style, transition, trigger } from '@angular/animations';
+import { animate, group, query, sequence, state, style, transition, trigger } from '@angular/animations';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Form, FormBuilder, FormControl, Validators } from '@angular/forms';
 import { Comment } from 'src/app/core/models/comment.model';
@@ -24,6 +24,43 @@ import { Comment } from 'src/app/core/models/comment.model';
       ]),
       transition('active => default', [
         animate('500ms ease-in-out')
+      ]),
+      transition(':enter', [
+        query('.comment-text, comment-date', [
+          style({
+            opacity: 0,
+          }),
+        ]),
+        style({
+          transform: 'translateX(-100%)',
+          opacity: 0,
+          'background-color': 'rgb(201, 157, 242)',
+        }),
+        animate('250ms ease-in', style({
+          transform: 'translateX(0)',
+          opacity: 1,
+          'background-color': 'white',
+        })),
+        group([
+          sequence([
+            animate('250ms', style({
+              'background-color': 'rgb(255, 7, 147)',
+            })),
+            animate('250ms', style({
+              'background-color': 'white',
+            }))
+          ]),
+          query('.comment-text', [
+            animate('250ms', style({
+              opacity: 1,
+            }))
+          ]),
+          query('.comment-date', [
+            animate('500ms', style({
+              opacity: 1,
+            }))
+          ]),
+        ])
       ]),
     ]),
   ]
