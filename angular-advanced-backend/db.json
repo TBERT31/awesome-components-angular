@@ -192,6 +192,24 @@
         "confirmPassword": "moihsdgf"
       },
       "id": 4
+    },
+    {
+      "personalInfo": {
+        "firstName": "erferfre",
+        "lastName": "erferfre"
+      },
+      "contactPreference": "email",
+      "email": {
+        "email": "erfref@dfvf",
+        "confirmEmail": "dfvdfv@dfvdfv"
+      },
+      "phone": "",
+      "loginInfo": {
+        "username": "dfvffvd",
+        "password": "dfvfddfvdfv",
+        "confirmPassword": "fddfvdfvfdvdfv"
+      },
+      "id": 5
     }
   ],
   "candidates": [
