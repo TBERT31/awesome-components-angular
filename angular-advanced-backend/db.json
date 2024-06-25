@@ -192,24 +192,6 @@
         "confirmPassword": "moihsdgf"
       },
       "id": 4
-    },
-    {
-      "personalInfo": {
-        "firstName": "erferfre",
-        "lastName": "erferfre"
-      },
-      "contactPreference": "email",
-      "email": {
-        "email": "erfref@dfvf",
-        "confirmEmail": "dfvdfv@dfvdfv"
-      },
-      "phone": "",
-      "loginInfo": {
-        "username": "dfvffvd",
-        "password": "dfvfddfvdfv",
-        "confirmPassword": "fddfvdfvfdvdfv"
-      },
-      "id": 5
     }
   ],
   "candidates": [
@@ -220,7 +202,7 @@
       "email": "dfeacham0@sina.com.cn",
       "job": "Recruiter",
       "department": "Research and Development",
-      "company": "Bauch-Hettinger",
+      "company": "Snapface Ltd",
       "imageUrl": "https://i.pravatar.cc/100?img=1"
     },
     {
